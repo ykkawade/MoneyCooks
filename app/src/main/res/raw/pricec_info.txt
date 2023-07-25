@@ -1,0 +1,7 @@
+Users can find prices of any item they want that are available under "View Items" when they select this option. This app will then attempt to find the best item for the best price for whatever they input.
+
+This app supports three different stores at three different locations around or at Pace University including the Pace University Market, CVS near Fulton Street and Whole Foods downtown.
+
+While many online APIs do not exist to support access to data regarding prices, the app selects its own localized API to provide the user with up-to-date information regarding the prices of the items they wish to see (to date of May 2023).
+
+When the user inputs an item, they will be notified on screen about any existing items of their input (N/A if none, the price if it exists) and the box at the top right will be updated with the best item and price of choice by priority.

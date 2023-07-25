@@ -1,0 +1,3 @@
+MoneyCooks is a financial literacy application that helps users at Pace University to learn about topics regarding scams, work with budgeting and price comparison.
+
+Users are able to select any of three options at the main screen where they can choose to record and budget their finances, search for items located at Pace University and nearby stores to compare prices or learn about scams.

@@ -1,0 +1,14 @@
+When dealing with food insecurity, it's always important to be mindful of scams and deceptive practices in order to protect yourself and your money from malicious actors.
+
+As many services collect user information for advertisement purposes, some of that data can be maliciously used against you. For example, if you do a DoorDash order or a Grubhub order, both of these food-delivery applications have built a simple profile of you. Unfortunately, with this data, also comes with scams.
+
+These scams against users are mostly carried out via social engineering attacks, which are designed to play on people's emotions in order to trick them into performing an unintended action such as relinquishing sensitive information such as credit/debit card credentials, username and password information, etc.
+
+Let's look at scams in more detail:
+
+Having some degree of cybersecurity knowledge is absolutely crucial in this day and age, especially since most scams today involve some form of cyberattack through a specific medium such as phishing, smishing, vishing, spearphishing, fake emails, and other types of social engineering techniques explained below.
+
+You may be scrolling through your mobile email app or desktop app one day after purchasing some groceries online and see a message that appears to be from the service or services you recently used, which normally you would pay no mind to, so you would just interact with the message as per usual. Unfortunately, taking that action is exactly what the scammers want you to take.
+
+But, how exactly are the scammers tricking you into doing this? It's simple, via social engineering, which is a technique used by scammers or bad actors to play on their victim's emotions in order to trick them into performing an unintended action that will bring harm to the victim and their assets. Let's look at some examples:
+

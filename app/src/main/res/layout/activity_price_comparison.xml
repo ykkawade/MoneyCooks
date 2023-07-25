@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pricecomparison"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".pricecomparison.PriceComparison">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="75dp"
+        android:src="@drawable/moneycooks_icon"
+        android:alpha="0.6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"></ImageView>
+
+    <EditText
+        android:id="@+id/input_item"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+        android:hint="Type in an item."
+        android:inputType="text"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/items_title" />
+
+    <TextView
+        android:id="@+id/items_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/basic"
+        android:text="Items:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/best_price_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/basic"
+        android:text="Best Price:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/items_title"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/find_button"
+        android:layout_width="85dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#95ADD6"
+        android:text="FIND"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_item" />
+
+    <Button
+        android:id="@+id/view_items_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:text="View Items"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_item" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="175dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.95"
+        android:backgroundTint="#e6e6e6"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintStart_toEndOf="@+id/input_item"
+        app:layout_constraintTop_toBottomOf="@+id/best_price_title">
+
+        <TextView
+            android:id="@+id/best_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/basic"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/input_item"
+            app:layout_constraintTop_toBottomOf="@+id/best_price_title" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/pace_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="175dp"
+        android:fontFamily="@font/basic"
+        android:text="Pace:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_item" />
+
+    <TextView
+        android:id="@+id/whole_foods_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/basic"
+        android:text="Whole Foods:"
+        app:layout_constraintEnd_toStartOf="@+id/cvs_items"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toEndOf="@+id/pace_items"
+        app:layout_constraintTop_toBottomOf="@+id/input_item" />
+
+    <TextView
+        android:id="@+id/cvs_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/basic"
+        android:text="CVS:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_item" />
+
+    <TextView
+        android:id="@+id/pace_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/basic"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pace_items" />
+
+    <TextView
+        android:id="@+id/whole_foods_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/basic"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/cvs_price"
+        app:layout_constraintHorizontal_bias="0.345"
+        app:layout_constraintStart_toEndOf="@+id/pace_price"
+        app:layout_constraintTop_toBottomOf="@+id/whole_foods_items" />
+
+    <TextView
+        android:id="@+id/cvs_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="60dp"
+        android:fontFamily="@font/basic"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvs_items" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

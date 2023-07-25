@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MoneyCooks</string>
+    <string name="budget_label_available_balance">Available Balance</string>
+    <string name="budget_available_balance_value">$0</string>
+    <string name="budget_label_see_details">See Details</string>
+    <string name="monthly_budget_header_label">Balance for the Month</string>
+    <string name="monthly_budget_cash_label">Cash Available</string>
+    <string name="monthly_budget_value">$0</string>
+    <string name="budget_start_limit">$0</string>
+    <string name="budget_end_limit">$0</string>
+    <string name="income_variable">$0</string>
+    <string name="expense_label">Expense</string>
+    <string name="expense_variable">$0</string>
+    <string name="income_label">Income</string>
+    <string name="test_string">Test</string>
+    <string name="vishing_heading">Vishing</string>
+    <string name="view_transactions">View Transactions</string>
+    <string name="transaction_amount">$0</string>
+    <string name="transaction_name">Transaction Name</string>
+    <string name="transaction_date">date</string>
+    <string name="transaction_mode">mode</string>
+    <string name="button_label_transaction">Transactions</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="smishing_heading">Smishing</string>
+
+    <string-array name="transaction_types">
+        <item>Income</item>
+        <item>Expense</item>
+    </string-array>
+
+    <string-array name="transaction_mode">
+        <item>Cash</item>
+        <item>Card</item>
+        <item>Online</item>
+    </string-array>
+</resources>
