@@ -93,3 +93,5 @@ trick unsuspecting yet vulnerable users.
 
 Shows a page where the user can see all the functions they are able to do
 with the app, as well as information on what they do.
+
+> **Use Screenshot folder for the UI**
